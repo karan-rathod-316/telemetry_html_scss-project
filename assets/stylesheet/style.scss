@@ -472,6 +472,9 @@
         .section-four {
             // justify-content: space-between;
             margin: 5rem 0 5rem;
+            @media all and (max-width: 545px) {
+                flex-direction: column;
+            }
             .section-four-left {
                 padding-top: 5rem;
                 height: 450px;
@@ -485,7 +488,6 @@
                     width: 100%;
                     height: auto;
                     padding-bottom: 3rem;
-                    flex-direction: column;
                 }
                 .quote {
                     background-color: $primary;
@@ -557,7 +559,6 @@
             @media all and (max-width: 545px) {
                 margin: 1rem;
                 text-align: center;
-                flex-direction: column;
             }
         }
         
@@ -754,8 +755,8 @@
             flex-direction: column;
         }
         
-        // @media all and (max-width:545px) {
-        //     html {
-        //         font-size: 8px;
-        //     }
-        // }
+        @media all and (max-width:545px) {
+            .fifth-container {
+                flex-direction: column;
+            }
+        }
