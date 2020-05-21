@@ -1,0 +1,110 @@
+         // Tabs
+         [data-tab-content] {
+             display: none;
+         }
+         
+         .active[data-tab-content] {
+             display: block;
+         }
+         
+         .tabs {
+             display: flex;
+             justify-content: start;
+             height: 4rem;
+             //  margin-left: 3rem;
+         }
+         
+         .tab {
+             // height: 3rem;
+             cursor: pointer;
+             // padding: 10px;
+             border-top: 1px solid lightgray;
+             border-right: 1px solid lightgray;
+             border-left: 1px solid lightgray;
+             border-bottom: 1px solid lightgray;
+             color: $text-dark;
+             background-color: rgb(245, 238, 238);
+             width: 10rem;
+             padding-top: 1rem;
+             text-align: center;
+         }
+         
+         .tab.active {
+             background-color: $secondary;
+             color: $primary;
+             padding-top: 1rem;
+             border-bottom: none;
+         }
+         
+         .tab:hover {
+             background-color: $secondary;
+         }
+         
+         .tab-main {
+             max-width: 1200px;
+             margin: 0 auto;
+             margin-top: 4rem;
+             margin-bottom: 4rem;
+             .tab-content {
+                 max-width: 1200px;
+                 margin: 0 auto;
+                 display: flex;
+             }
+         }
+         
+         .section-three-flex {
+             border: 1px solid lightgray;
+             display: flex;
+             justify-content: space-between;
+             margin-left: 0;
+             padding: 3rem;
+             @media all and (max-width: 545px) {
+                 flex-direction: column;
+                 padding-right: 0;
+                 padding-left: 0;
+                 padding-top: 3rem;
+             }
+             .section-three-left {
+                 width: 48%;
+                 @media all and (max-width: 545px) {
+                     width: 100%;
+                     //  margin: 0 2rem 0 2rem;
+                     text-align: center;
+                     padding: 0 2rem 2rem 2rem;
+                 }
+                 .sec-3-sub-header {
+                     font-size: 2rem;
+                     font-weight: 300;
+                     @media all and (max-width: 545px) {
+                         font-size: 1.5rem;
+                     }
+                 }
+                 .sec-3-text {
+                     padding-top: 2rem;
+                     padding-bottom: 2rem;
+                     color: rgb(88, 85, 85);
+                     font-weight: 200;
+                 }
+                 button {
+                     outline: none;
+                     padding: .7rem 1.5rem .7rem 1.5rem;
+                     &:hover {
+                         background-color: rgb(238, 232, 232);
+                     }
+                 }
+             }
+             .section-three-right {
+                 width: 48%;
+                 @media all and (max-width: 545px) {
+                     width: 100%;
+                 }
+                 img {
+                     width: 100%;
+                     border-radius: .5rem;
+                     @media all and (max-width: 545px) {
+                         padding-left: 1rem;
+                         padding-right: 1rem;
+                     }
+                 }
+             }
+         }

@@ -1,0 +1,202 @@
+                    .contact {
+                        background-color: $primary;
+                        color: $secondary;
+                        .contact-container {
+                            // margin: 0 auto;
+                            width: 90%;
+                            text-align: left;
+                            margin: 0 auto;
+                            padding-bottom: 3rem;
+                            @media all and (max-width: 545px) {
+                                flex-direction: column;
+                                justify-content: space-between;
+                                padding-bottom: 2rem;
+                            }
+                        }
+                        // .footer {
+                        //     text-align: center;
+                        //     border-top: $secondary solid 1px;
+                        //     padding: 2rem 0 2rem;
+                        //     font-size: 0.8rem;
+                        // }
+                        .contact-left {
+                            padding-top: 5rem;
+                            padding-bottom: 5rem;
+                            width: 30%;
+                            @media all and (max-width: 545px) {
+                                width: 100%;
+                                text-align: center;
+                                padding-top: 2rem;
+                                padding-bottom: 3rem;
+                            }
+                            h2 {
+                                font-weight: 300;
+                                @media all and (max-width: 545px) {
+                                    padding: 0;
+                                    text-align: center;
+                                }
+                            }
+                            .contact-content {
+                                padding-bottom: 1rem;
+                                padding-left: 1rem;
+                                display: inline-block;
+                                font-size: .9rem;
+                                vertical-align: top;
+                            }
+                            .contact-icon {
+                                display: inline-block;
+                            }
+                            .sm-menu-icons {
+                                padding-top: 3rem;
+                                @media all and (max-width: 545px) {
+                                    padding-top: 1rem;
+                                }
+                                .fab {
+                                    color: $secondary;
+                                }
+                                .sm-icons {
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    border: 1px solid $secondary;
+                                    padding-left: .7rem;
+                                    padding-top: .5rem;
+                                    border-radius: 5px;
+                                    &:hover {
+                                        cursor: pointer;
+                                        background-color: #fa8e84;
+                                    }
+                                    @media all and (max-width: 545px) {
+                                        width: 2rem;
+                                        height: 2rem;
+                                        padding-left: 0rem;
+                                        padding-top: .2rem;
+                                    }
+                                }
+                            }
+                        }
+                        .contact-right {
+                            width: 70%;
+                            padding-top: 5rem;
+                            padding-left: 5rem;
+                            text-align: left;
+                            @media all and (max-width: 545px) {
+                                width: 100%;
+                                padding: 0;
+                                display: flex;
+                                flex-direction: column;
+                                text-align: center;
+                                padding-left: 0rem;
+                            }
+                            .form-flex-top {
+                                display: flex;
+                                justify-content: stretch;
+                                @media all and (max-width: 545px) {
+                                    flex-direction: column;
+                                }
+                            }
+                            .column-flex {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                                @media all and (max-width: 545px) {
+                                    flex-direction: column;
+                                    flex-wrap: wrap;
+                                }
+                            }
+                            h2 {
+                                padding-left: 2rem;
+                                font-weight: 300;
+                                @media all and (max-width: 545px) {
+                                    padding: 0;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                        @media all and (max-width:545px) {
+                            .fifth-container {
+                                flex-direction: column;
+                            }
+                        }
+                        .form-main {
+                            input {
+                                background-color: $primary;
+                                border: solid 1px #ffa69c;
+                                color: #fdecea;
+                                padding: 1rem 1.5rem 1rem 1.5rem;
+                                border-radius: .5rem;
+                                margin-top: 0;
+                                margin-right: 1rem;
+                                margin-bottom: 1rem;
+                                width: 15rem;
+                                outline: $primary;
+                                &::placeholder {
+                                    /* Chrome, Firefox, Opera, Safari 10.1+ */
+                                    color: #ffa69c;
+                                    opacity: 1;
+                                    /* Firefox */
+                                }
+                                &:focus {
+                                    border: 2px solid white;
+                                }
+                                @media all and (max-width:545px) {
+                                    margin-right: 0rem;
+                                    width: 100%;
+                                    margin-bottom: 1rem;
+                                }
+                            }
+                            textarea {
+                                background-color: $primary;
+                                border: solid 1px #ffa69c;
+                                color: #fdecea;
+                                padding: .5rem .7rem .5rem 1rem;
+                                font-family: $font-family;
+                                border-radius: .5rem;
+                                font-weight: 200;
+                                outline: $primary;
+                                &:focus {
+                                    border: 2px solid white;
+                                }
+                                @media all and (max-width:545px) {
+                                    -webkit-box-sizing: border-box;
+                                    -moz-box-sizing: border-box;
+                                    box-sizing: border-box;
+                                    width: 100%;
+                                }
+                            }
+                            .submit {
+                                font-weight: 200;
+                                padding-top: .5rem;
+                                margin-top: .7rem;
+                                padding-bottom: .5rem;
+                                border: solid 1px white;
+                                width: 10rem;
+                                &:hover {
+                                    cursor: pointer;
+                                    background-color: #fa8e84;
+                                }
+                                @media all and (max-width:545px) {
+                                    margin: 0 auto;
+                                    margin-top: 2rem;
+                                }
+                            }
+                        }
+                    }
+                    
+                    footer {
+                        background-color: $primary;
+                        .footer {
+                            background-color: $primary;
+                            color: $secondary;
+                            font-size: 0.7rem;
+                            text-align: center;
+                            padding-top: 4rem;
+                            padding-bottom: 4rem;
+                            border-top: solid 1px #ffa69c;
+                            margin: 0 auto;
+                            max-width: 1200px;
+                            @media all and (max-width: 545px) {
+                                padding-top: 2rem;
+                                padding-bottom: 2rem;
+                            }
+                        }
+                    }

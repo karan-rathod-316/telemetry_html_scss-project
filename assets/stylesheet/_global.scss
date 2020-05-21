@@ -1,0 +1,68 @@
+// Global
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-responsive {
+    // display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.disp-none {
+    display: none;
+}
+
+.btn {
+    background: transparent;
+    border-radius: 0.4em;
+    padding: .7em 3em;
+    text-transform: uppercase;
+    border: 1px solid #808080;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 1.2rem
+}
+
+h5 {
+    font-size: 0.8rem;
+}

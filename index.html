@@ -5,31 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telemetry | By Pixelarity</title>
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/stylesheet/style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
         <nav class="nav flex">
             <a href="#" class="logo flex">
-                <span class="logo-main">Telemetry</span><span class="line"></span> <span class="pixelarity-span">By Pixelarity</span>
+                <strong class="logo-main">Telemetry</strong> <span class="line"></span> </span><strong class="pixelarity-span">By Pixelarity</strong>
             </a>
-            <ul class="nav-menu flex">
+            <!-- Hamburger -->
+            <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle" class="toggle">
+            <ul class="nav-menu">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#"><i class="fas fa-chevron-down"></i> Dropdown</a>
                     <ul class="dropdown-menu">
-                        <a href="#">
-                            <li>Option One</li>
-                        </a>
-                        <a href="#">
-                            <li>Option Two</li>
-                        </a>
-                        <a href="#">
-                            <li>Option Three</li>
-                        </a>
+                        <li>
+                            <a href="#"></a>Option One</a>
+                        </li>
+
+                        <li>
+                            <a href="#"></a>Option Two</a>
+                        </li>
+
+                        <li>
+                            <a href="#"></a>Option Three</a>
+                        </li>
+
+                        <li class="last-li">
+                            <a href="#"></a>Sub-Menu</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">Generic</a></li>
@@ -37,6 +50,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Main Section -->
     <main>
         <section class="main-section" id="parallax">
             <div class="main-container flex">
@@ -56,7 +71,7 @@
         <section class="primary-container flex">
             <div class="primary-left">
                 <div class="primary-image">
-                    <img src="./assets/media/pic02.jpg">
+                    <img src="./assets/media/pic02.jpg" alt="Mountains">
                 </div>
             </div>
             <div class="primary-right">
@@ -71,7 +86,9 @@
                         <div class="data-content">
                             <h3>Sed veroeros</h3>
                             <div>
-                                Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                <p>
+                                    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +99,10 @@
                         <div class="data-content">
                             <h3>Magna etiam</h3>
                             <div>
-                                Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                <p>
+                                    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                </p>
+
                             </div>
                         </div>
                     </div>
@@ -93,8 +113,11 @@
                         <div class="data-content">
                             <h3>Nulla consequat</h3>
                             <div>
-                                Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                <p>
+                                    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                </p>
                             </div>
+
                         </div>
                     </div>
                     <div class="data data-four flex">
@@ -104,7 +127,9 @@
                         <div class="data-content">
                             <h3>Euismod morbi</h3>
                             <div>
-                                Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                <p>
+                                    Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.
+                                    <p>
                             </div>
                         </div>
                     </div>
@@ -112,72 +137,114 @@
             </div>
         </section>
 
+        <!-- Secondary Section -->
         <section class="secondary-section">
             <div class="secondary-container flex">
                 <article class="secondary-data secondary-data-1">
                     <div class="secondary-data-num">
-                        128
+                        <h6>128</h6>
                     </div>
                     <div class="secondary-data-title">
-                        Sed magna
+                        <p>Sed magna</p>
                     </div>
                     <div class="secondary-data-content">
-                        Lorem ipsum dolor nulla feugiat adipiscing
+                        <p>Lorem ipsum dolor nulla feugiat adipiscing</p>
                     </div>
                 </article>
                 <article class="secondary-data secondary-data-2">
                     <div class="secondary-data-num">
-                        640
+                        <h6>640</h6>
                     </div>
                     <div class="secondary-data-title">
-                        Etiam dolor
+                        <p>Etiam dolor</p>
                     </div>
                     <div class="secondary-data-content">
-                        Lorem ipsum dolor nulla feugiat adipiscing
+                        <p>Lorem ipsum dolor nulla feugiat adipiscing</p>
                     </div>
                 </article>
                 <article class="secondary-data secondary-data-3">
                     <div class="secondary-data-num">
-                        256
+                        <h6>256</h6>
                     </div>
                     <div class="secondary-data-title">
-                        Nullam amet
+                        <p>Nullam amet</p>
                     </div>
                     <div class="secondary-data-content">
-                        Lorem ipsum dolor nulla feugiat adipiscing
+                        <p>Lorem ipsum dolor nulla feugiat adipiscing</p>
                     </div>
                 </article>
                 <article class="secondary-data secondary-data-4">
                     <div class="secondary-data-num">
-                        768
+                        <h6>768</h6>
                     </div>
                     <div class="secondary-data-title">
-                        Sit euismod
+                        <p>Sit euismod</p>
                     </div>
                     <div class="secondary-data-content">
-                        Lorem ipsum dolor nulla feugiat adipiscing
+                        <p>Lorem ipsum dolor nulla feugiat adipiscing</p>
                     </div>
                 </article>
             </div>
         </section>
 
-
+        <!-- Section Three-->
         <section class="section-three">
-            <h3>Aliquam</h3>
+            <!-- Tabs -->
+            <div class="tab-main">
+                <ul class="tabs">
+                    <li data-tab-target="#home" class="active tab">Aliquam</li>
+                    <li data-tab-target="#pricing" class="tab">Consequat</li>
+                    <li data-tab-target="#about" class="tab">Feugat</li>
+                </ul>
 
-            <div class="section-three-flex">
-                <div class="section-three-left">
-                    <h4 class="sec-3-sub-header">Lorem ipsum dolor sit magna feugiat etiam sed dolor</h4>
-                    <p class="sec-3-text">Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
-                    <button class="btn">Learn More</button>
-                </div>
+                <div class="tab-content">
+                    <div id="home" data-tab-content class="active">
+                        <div class="section-three-flex">
+                            <div class="section-three-left">
+                                <h5 class="sec-3-sub-header">Lorem ipsum dolor sit magna feugiat etiam</h5>
+                                <p class="sec-3-text">Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
+                                <button class="btn">Learn More</button>
+                            </div>
 
-                <div class="section-three-right">
-                    <img src="assets/media/pic05.jpg" alt="">
+                            <div class="section-three-right">
+                                <img src="assets/media/pic05.jpg" alt="Boy laying down in grassy outdoors">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pricing" data-tab-content>
+                        <div class="section-three-flex">
+                            <div class="section-three-left">
+                                <h5 class="sec-3-sub-header">Ipsum dolor sit magna feugiat etiam sed</h5>
+                                <p class="sec-3-text">Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
+                                <button class="btn">Learn More</button>
+                            </div>
+
+                            <div class="section-three-right">
+                                <img src="assets/media/pic05.jpg" alt="Boy laying down in grassy outdoors">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="about" data-tab-content>
+                        <div class="section-three-flex">
+                            <div class="section-three-left">
+                                <h5 class="sec-3-sub-header">Sit magna feugiat etiam sed dolor</h5>
+                                <p class="sec-3-text">Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
+                                <button class="btn">Learn More</button>
+                            </div>
+
+                            <div class="section-three-right">
+                                <img src="assets/media/pic05.jpg" alt="Boy laying down in grassy outdoors">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+
         </section>
+
+        <!-- Section Four-->
+
         <section class="section-four flex">
 
             <div class="section-four-left">
@@ -197,79 +264,53 @@
             </div>
         </section>
 
+        <!-- Section Five-->
+
         <section class="fifth-section">
             <div class="fifth-container flex">
                 <div class="fifth-left">
                     <h2>Feugiat lorem ipsum dolor velit amet dolor dignissim pharetra
                     </h2>
                     <div class="fifth-image-div">
-                        <img class="fifth-image" src="./assets/media/pic06.jpg">
+                        <img class="fifth-image" src="./assets/media/pic06.jpg" alt="Road">
                     </div>
                     <div class="fifth-text">
-                        Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.
+                        <p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
                     </div>
                     <button class="learn-more-btn">Learn More</button>
                 </div>
                 <div class="fifth-right">
-                    <div class="progress">
-                        <p class="progress-type">Ipsum amet</p>
-                        <div class="progress-line-holder">
-                            <div class="black-line"></div>
-                            <div class="red-line progress-60"></div>
+                    <div class=" progress-bar">
+                        <div class="progress-item">
+                            <h6>Ipsum amet</h6>
+                            <progress value="60" max="100"></progress>
+                            <p>60%</p>
                         </div>
-                        <div class="progress-percent">
-                            60%
+                        <div class="progress-item">
+                            <h6>Adipiscing feugiat</h6>
+                            <progress value="90" max="100"></progress>
+                            <p>90%</p>
                         </div>
-                    </div>
-
-                    <div class="progress">
-                        <p class="progress-type">Adipiscing feugiat</p>
-                        <div class="progress-line-holder">
-                            <div class="black-line"></div>
-                            <div class="red-line progress-50"></div>
+                        <div class="progress-item">
+                            <h6>Dolor ligula</h6>
+                            <progress value="75" max="100"></progress>
+                            <p>75%</p>
                         </div>
-                        <div class="progress-percent">
-                            50%
+                        <div class="progress-item">
+                            <h6>Libero magna</h6>
+                            <progress value="45" max="100"></progress>
+                            <p>45%</p>
                         </div>
-                    </div>
-
-                    <div class="progress">
-                        <p class="progress-type">Dolor ligula </p>
-                        <div class="progress-line-holder">
-                            <div class="black-line"></div>
-                            <div class="red-line progress-40"></div>
-                        </div>
-                        <div class="progress-percent">
-                            40%
-                        </div>
-                    </div>
-
-                    <div class="progress">
-                        <p class="progress-type">Libero magna</p>
-                        <div class="progress-line-holder">
-                            <div class="black-line"></div>
-                            <div class="red-line progress-70"></div>
-                        </div>
-                        <div class="progress-percent">
-                            70%
-                        </div>
-                    </div>
-
-                    <div class="progress">
-                        <p class="progress-type">Nec lacinia
-                        </p>
-                        <div class="progress-line-holder">
-                            <div class="black-line"></div>
-                            <div class="red-line progress-30"></div>
-                        </div>
-                        <div class="progress-percent">
-                            30%
+                        <div class="progress-item">
+                            <h6>Nec lacinia</h6>
+                            <progress value="55" max="100"></progress>
+                            <p>55%</p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
+        <!-- Form Section -->
 
         <section class="contact">
             <div class="contact-container flex">
@@ -279,10 +320,9 @@
                         <li>
                             <span class="contact-icon">
                                 <i class="fas fa-home"></i>
-
                             </span>
-                            <span class="contact-content">
-                               <br>Nashville, TN 00000-0000
+                            <span class="contact-content">1234 Fictional Street #5432 
+                                <br>Nashville, TN 00000-0000
                             </span>
                         </li>
                         <li>
@@ -344,27 +384,64 @@
                 <div class="contact-right">
                     <h2>Email Us</h2>
                     <div class="contact-container">
-                        <div class="contact-inputs flex">
-                            <input type="text" class="name" placeholder="   Name">
-                            <input type="text" class="email" placeholder="   Email">
-                        </div>
-                        <div>
+                        <form class="form-main" action="#" method="post">
+                            <div class="form-flex-top">
 
-                            <textarea name="message" class="contact-message" id="" cols="30" rows="10"></textarea>
-                        </div>
-                        <button class="btn-send">Send Message</button>
+                                <label>
+                              <input type="text" name="name" placeholder="Name" required>
+                            </label>
+                                <label> 
+                            
+                              <input type="email" name="email" placeholder="Email address" required>
+                            </label>
+
+                            </div>
+
+                            <div class="column-flex">
+
+                                <label>    
+                              <textarea class="message" name="message" id="" cols="74" rows="8">Message</textarea>
+                            </label>
+                                <input class="submit" type="submit" name="submit" value="Send Message">
+                            </div>
+
+                        </form>
+
+
+
+
                     </div>
                 </div>
-            </div>
-            <div class="horizontal-line container">
 
-            </div>
-            <div class="footer">
-                &copy; Untitled. All rights reserved.
-            </div>
         </section>
 
-        <script src="main.js"></script>
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer">
+                <p class="footer-copy"> &copy; Untitled. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="assets/javascript/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 </body>
 
