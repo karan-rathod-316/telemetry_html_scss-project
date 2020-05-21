@@ -508,6 +508,13 @@ h5 {
   border-radius: 0.25em;
 }
 
+@media all and (max-width: 545px) {
+  .primary-container img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .primary-container h2 {
   margin-bottom: 2em;
   margin-top: 1.25em;
@@ -594,6 +601,12 @@ h5 {
   padding: 5em 0;
 }
 
+@media all and (max-width: 545px) {
+  .secondary-section {
+    padding: 2em 0;
+  }
+}
+
 .secondary-section .secondary-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -625,6 +638,15 @@ h5 {
 .secondary-section .secondary-container .secondary-data-2,
 .secondary-section .secondary-container .secondary-data-3 {
   border-right: 1px solid #e6e5e5;
+}
+
+@media all and (max-width: 545px) {
+  .secondary-section .secondary-container .secondary-data-1,
+  .secondary-section .secondary-container .secondary-data-2,
+  .secondary-section .secondary-container .secondary-data-3 {
+    border-bottom: 1px solid #e6e5e5;
+    padding-bottom: 2rem;
+  }
 }
 
 .secondary-section .secondary-container .secondary-data-num,

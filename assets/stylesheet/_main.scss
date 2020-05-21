@@ -76,6 +76,10 @@
                     img {
                         object-fit: cover;
                         border-radius: 0.25em;
+                        @media all and (max-width: 545px) {
+                            max-width: 100%;
+                            margin: 0 auto;
+                        }
                     }
                     h2 {
                         margin-bottom: 2em;
@@ -141,6 +145,9 @@
                     color: $secondary;
                     text-align: center;
                     padding: 5em 0;
+                    @media all and (max-width: 545px) {
+                        padding: 2em 0;
+                    }
                     .secondary-container {
                         max-width: $width;
                         margin: 0 auto;
@@ -159,6 +166,10 @@
                         .secondary-data-2,
                         .secondary-data-3 {
                             border-right: 1px solid rgb(230, 229, 229);
+                            @media all and (max-width: 545px) {
+                                border-bottom: 1px solid rgb(230, 229, 229);
+                                padding-bottom: 2rem;
+                            }
                         }
                         .secondary-data-num,
                         .secondary-data-title {
